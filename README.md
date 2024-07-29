@@ -1,8 +1,9 @@
 
 
 # Intrusion Detector
+![Intrusion Detector](https://github.com/user-attachments/assets/3c3d9013-d984-48d6-b860-118e536287ac)
 
-![Intrusion Detector](https://github.com/lawrence316/Intrusion_Dectector-.git/intrusion-detector.png)
+
 
 **Network Intrusion Detection System (NIDS) in Python**
 
