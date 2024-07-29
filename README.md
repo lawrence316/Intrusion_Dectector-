@@ -1,7 +1,8 @@
 
+
 # Intrusion Detector
 
-![Intrusion Detector](https://github.com/lawrence316/Intrusion_Dectector/images/detection.png)
+![Intrusion Detector](https://github.com/lawrence316/Intrusion_Dectector-.git/intrusion-detector.png)
 
 **Network Intrusion Detection System (NIDS) in Python**
 
@@ -24,31 +25,42 @@ Network security is critical in today's interconnected world. Intrusion Detector
 - **Alert System**: Sends notifications (email, SMS, or custom hooks) when suspicious activity is detected.
 - **Customizable Rules**: Easily configure rules based on your specific environment and threat landscape.
 
+## Requirements
+
+- **Python Version**: 3.7 or higher
+
+
 ## Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/intrusion-detector.git
    cd intrusion-detector
    ```
+ 
 
 2. Install the required packages:
    ```bash
    pip install -r requirements.txt
    ```
+  
 
-3. Configure settings:
-   - Edit `config.yaml` to set up your network interfaces, alert thresholds, and notification preferences.
 
 ## Usage
-1. Start the Intrusion Detector:
+1. Open the Jupyter Notebook:
    ```bash
-   python main.py
+   jupyter notebook intrusion_detection.ipynb
    ```
-   Ensure you have the necessary permissions to monitor network traffic.
+   Run the cells in the notebook to execute the intrusion detection model.
 
 2. Monitor the console output for alerts and anomalies.
 
-3. Customize rules and actions in `rules.yaml`.
+
+## Code Overview
+- **Data Generation**: Generates a synthetic dataset to simulate network traffic.
+- **Data Preprocessing**: Splits the dataset into training and testing sets and scales features.
+- **Model Training**: Trains a Random Forest Classifier for signature-based detection.
+- **Anomaly Detection**: Utilizes Isolation Forest for identifying anomalies in the data.
+- **Evaluation**: Evaluates model performance using confusion matrix, classification report, and accuracy score.
 
 ## Contributing
 We welcome contributions! If you'd like to improve this project, follow these steps:
@@ -61,3 +73,4 @@ We welcome contributions! If you'd like to improve this project, follow these st
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+s
